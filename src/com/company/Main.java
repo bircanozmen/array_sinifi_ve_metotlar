@@ -22,7 +22,6 @@ public class Main {
         System.out.println("52'nin indeksi :" + index);
 
         int[] liste4 = {6, 1, 55, 21, 33, -321, -21, 2, -11, 27};
-
         int[] copyArray = Arrays.copyOf(liste4, 3); //copyOf dizinin yeni boyutunu belirleriz. Boyutu 3 olsun gibi.
         System.out.println(Arrays.toString(copyArray));
 
@@ -33,7 +32,6 @@ public class Main {
         int[] list5 = {1, 2, 3};
         int[] list6 = {1, 2, 3};
         int[] list7 = {1, 2, 10};
-
         System.out.println(Arrays.equals(list5, list6)); // true
         System.out.println(Arrays.equals(list7, list5)); // false
         // Yalnızca iki dizi öbbeğini karşılaştırabiliyoruz.
