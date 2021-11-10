@@ -29,6 +29,14 @@ public class Main {
         int[] copyOfRangeArray = Arrays.copyOfRange(liste4, 0,5); // copyOfRange ile ise boyutun aralığını belirleriz.
         // 0. indexten 5. indexe kadar olanları yazdır (5. index dahil değil!!) gibi.
         System.out.println(Arrays.toString(copyOfRangeArray));
+        
+        int[] list5 = {1, 2, 3};
+        int[] list6 = {1, 2, 3};
+        int[] list7 = {1, 2, 10};
+
+        System.out.println(Arrays.equals(list5, list6)); // true
+        System.out.println(Arrays.equals(list7, list5)); // false
+        // Yalnızca iki dizi öbbeğini karşılaştırabiliyoruz.
 
     }
     }
