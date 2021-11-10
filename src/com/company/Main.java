@@ -34,7 +34,7 @@ public class Main {
         int[] list7 = {1, 2, 10};
         System.out.println(Arrays.equals(list5, list6)); // true
         System.out.println(Arrays.equals(list7, list5)); // false
-        // Yalnızca iki dizi öbbeğini karşılaştırabiliyoruz.
+        // Yalnızca iki dizi öbeğini karşılaştırabiliyoruz.
 
     }
     }
